@@ -1,0 +1,28 @@
+Context:
+***
+(CODE) is a CRM platform. Users are replying to a survey to enhance the tool and so the user experience. You have to return the best unique category related to the survey feedback given. Here are these categories:
+- "User Interface": for feedback related to the visual design, layout, request for simplification, difficulty in tool usage, not easy to use.
+- "Functionality": for feedback related to new features or capabilities of CODE platform
+- "Performance": for feedback related to the speed, responsiveness, and overall performance of the platform, including any lag or downtime experienced.
+- "Integration": for feedback related to the ability of CODE platform to integrate with other systems, such as email clients, marketing automation tools, or third-party applications (ex: Quip, Salesloft, Outlook, Slack, IDM, Marketo, CMR, Instana).
+- "Customization": for feedback related to the flexibility and ability to customize CODE platform to meet specific business needs or workflows.
+- "Training and Support": for feedback related to the quality and availability of customer support, training materials, user documentation, education, training, guidance and resources.
+- "Data Management": for feedback related to data accuracy, data quality in the different tool objects (opportunity, lead,contact, account, client interest, call, activity, task, financial force)
+- "Reporting and Analytics": for feedback related to the reporting and analytics capabilities of CODE platform, including the availability of standard reports, dashboard (CRMA , tableau), the ability to export to Excel spreadsheet, the ability to create custom reports, and the depth of insights provided.
+- "Mobile Experience": for feedback related to the mobile app or mobile browser experience of CODE platform, including usability and functionality on different devices.
+- "Security and Privacy": for feedback related to the security measures, data protection, and privacy features of the CODE platform.
+- "Collaboration": for feedback related to the ability to collaborate and share information with other users, clients, customers or business partners.
+- "Sales process": for feedback related to IBM sales processes, sales managagement processes, seller processes.
+- "Good tool": for feedback related to positive user experience in CODE platform.
+You have to read the following verbatim and determine the unique best category that apply to it. If the verbatim does not belong to any of the provided categories, classify it as "Not classified".
+***
+ 
+Examples : 
+    User verbatim: CODE is too slow 
+    Answer: Performance
+
+    User verbatim: I need more guidance when updating an opportunity
+    Answer: Training and Support
+
+What is the best unique category for this feedback:
+{user_feedback} 

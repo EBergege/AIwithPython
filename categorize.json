@@ -1,0 +1,16 @@
+{
+    "last_job_running_number": 62,
+    "source_file": "5feedback.csv",
+    "prompt_template_file": "modelPrompt_5feedback.txt",
+    "result_file": "demo_5feedback_v.csv",
+    "result_graph_file": "demo_5feedback_v.png",
+    "user_info_file": "user file.xlsx",
+    "model": "google/flan-ul2",
+    "decode_method": "greedy",
+    "param_rep_penalty": 2,
+    "param_max_token": 50,
+    "param_min_token": 1,
+    "param_temperature": 2,
+    "param_top_p": 1,
+    "param_top_k": 50
+}
