@@ -1,0 +1,18 @@
+INFO:root:Execution start: 14:42:42
+INFO:root:Params: model: google/flan-ul2 - decoding:greedy 
+INFO:root:   - rep_penalty:2 - min_tok=1 - max_tok=50
+INFO:root:prompt template file: modelPrompt_5feedback.txt 
+INFO:root:result file: demo_5feedback_v2023062362.csv 
+INFO:root:image file: demo_5feedback_v2023062362.png 
+INFO:httpx:HTTP Request: POST https://truc.com/v1/generate "HTTP/1.1 200 OK"
+INFO:genai.extensions.langchain.llm:Output of GENAI call: User Interface
+INFO:httpx:HTTP Request: POST https://truc.com/v1/generate "HTTP/1.1 200 OK"
+INFO:genai.extensions.langchain.llm:Output of GENAI call: User Interface
+INFO:httpx:HTTP Request: POST https://truc.com/v1/generate "HTTP/1.1 200 OK"
+INFO:genai.extensions.langchain.llm:Output of GENAI call: Reporting and Analytics
+INFO:httpx:HTTP Request: POST https://truc.com/v1/generate "HTTP/1.1 200 OK"
+INFO:genai.extensions.langchain.llm:Output of GENAI call: Functionality
+INFO:httpx:HTTP Request: POST https://truc.com/v1/generate "HTTP/1.1 200 OK"
+INFO:genai.extensions.langchain.llm:Output of GENAI call: Functionality
+INFO:root:Not classified comments: 0
+INFO:root:Success execution - finished: 14:43:00.
